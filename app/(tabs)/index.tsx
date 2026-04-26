@@ -1,9 +1,12 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import UserMap from "../../customComponents/UserMap";
+// import Sensors from "../../customComponents/Sensors";
 
 export default function Index() {
   return (
-    <View>
-      <Text>This is Nyzheholtsev MAIN Page</Text>
+    <View style={{ flex: 1 }}>
+      {/* <Sensors /> */}
+      <UserMap />
     </View>
   );
 }
